@@ -1,0 +1,44 @@
+{
+  "name": "artifex",
+  "version": "2.0",
+  "description": "project management",
+  "main": "./app/server.js",
+  "author": "wemotive",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start":  "nodemon --exec babel-node ./app/server.js --trace-deprecation"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "compare-versions": "^4.1.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "get-routes": "^2.1.5",
+    "glob": "^8.0.1",
+    "handlebars": "^4.7.7",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.7",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "cross-conf-env": "^1.2.1",
+    "js-beautify": "^1.8.9",
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
